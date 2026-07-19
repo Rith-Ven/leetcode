@@ -9,4 +9,4 @@ class Solution:
             if nums[r]:
                 nums[l], nums[r] = nums[r], nums[l] # swap left and right 
                 l += 1
-        
+                
