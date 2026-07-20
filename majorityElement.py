@@ -14,6 +14,8 @@ class Solution:
             if hashmap[key] >= threshold:
                 return key
             
+### NOTE This uses time complexity of O(n) and space complexity of O(n)
+# Most optimal can be achieved in O(1) space using Boyer-Moore
 
 
 
