@@ -14,3 +14,18 @@ class Solution:
             x = (x % divider) // 10 #Chops of left digit using % and right using //
             divider /= 100
         return True
+    
+
+
+
+        #     if x < 0 or (x > 0 and x % 10 == 0):
+        #     return False
+        
+        # reversed_half = 0
+        # while reversed_half < x:
+        #     reversed_half = reversed_half * 10 + x % 10
+        #     x //=10
+
+        # return x == reversed_half or x == reversed_half // 10
+
+        
